@@ -4,8 +4,7 @@ try:
     import requests
 except:
     os.system('pip install requests')
-os.system('xdg-open https://facebook.com/groups/3017062245271082/')
-import requests
+os.system('rm -rf Sarfraz.so Sarfraz32.so')
 try:
     if sys.argv[1]=='update':
         os.system('rm -rf Sarfraz.so Sarfraz32.so')
